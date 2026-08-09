@@ -4,6 +4,7 @@ import "./index.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
 import { Home } from "./components/sections/Home";
+import { About } from "./components/sections/About";
 
 const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -18,6 +19,7 @@ const App = () => {
       >
         <Navbar />
         <Home />
+        <About />
       </div>
     </>
   );
