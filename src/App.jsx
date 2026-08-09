@@ -3,6 +3,7 @@ import "./App.css";
 import "./index.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
+import { Home } from "./components/sections/Home";
 
 const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -16,6 +17,7 @@ const App = () => {
         } bg-black text-gray-100`}
       >
         <Navbar />
+        <Home />
       </div>
     </>
   );
