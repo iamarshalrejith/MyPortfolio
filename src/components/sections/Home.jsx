@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import heroImg from "../../assets/hero.jpeg";
+import heroImg from "../../assets/hero.jpg";
 
 const ROLE = "Full Stack Developer";
 const SOCIALS = [
