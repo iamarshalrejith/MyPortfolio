@@ -1,16 +1,89 @@
-# React + Vite
+# Portfolio — Arshal Rejith S
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal developer portfolio built with React and Tailwind CSS. Showcases projects, skills, and contact info with a terminal/code-editor inspired UI.
 
-Currently, two official plugins are available:
+🔗 Live: [MyPortfolio](https://arshal-rejith.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Animated terminal-style loading screen with typewriter effect
+- Sticky navbar with scroll-spy active section highlighting and mobile menu
+- Hero section with typewriter role animation
+- About section with skills grid and quick stats
+- Project showcase cards (WedCraft, GoOrbit, DownX)
+- Contact section styled as JSON with social/email links
+- Fully responsive, dark-themed UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **React** (Vite)
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```
+src/
+├── App.jsx
+├── App.css
+├── index.css
+├── main.jsx
+├── assets/
+│   └── hero.jpg
+└── components/
+    ├── LoadingScreen.jsx
+    ├── Navbar.jsx
+    └── sections/
+        ├── Home.jsx
+        ├── About.jsx
+        ├── Projects.jsx
+        └── Contact.jsx
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18+)
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/iamarshalrejith/MyPortfolio.git
+cd MyPortfolio
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+### Build
+
+```bash
+npm run build
+```
+
+## Deployment
+
+This project is set up for easy deployment on platforms like Vercel or Netlify:
+
+```bash
+npm run build
+```
+
+Then deploy the generated `dist/` folder.
+
+## Contact
+
+- **Email:** iamarshalrejith@gmail.com
+- **GitHub:** [github.com/iamarshalrejith](https://github.com/iamarshalrejith)
+- **LinkedIn:** [linkedin.com/in/arshal-rejith17](https://linkedin.com/in/arshal-rejith17)
+- **LeetCode:** [leetcode.com/u/arshalrejith](https://leetcode.com/u/arshalrejith)
+
+## License
+
+© 2026 Arshal Rejith S. All rights reserved.
